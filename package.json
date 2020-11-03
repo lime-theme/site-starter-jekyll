@@ -1,0 +1,23 @@
+{
+  "name": "@lime-theme/site-starter-jekyll",
+  "version": "0.0.0",
+  "description": "Lime Site Template for Jekyll",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">=14.15.3"
+  },
+  "devDependencies": {
+    "@knosys/sdk": "^0.0.3",
+    "@ntks/toolbox": "^0.0.6",
+    "dotenv": "^16.4.5",
+    "js-yaml": "4.1.0",
+    "ksio": "0.0.3"
+  },
+  "scripts": {
+    "clean": "rm -rf .asset-cache .cache .knosys/sites/*/.asset-cache .knosys/sites/*/.cache",
+    "start": "node .knosys/scripts site serve",
+    "predeploy": "npm run clean",
+    "deploy": "node .knosys/scripts site deploy"
+  }
+}

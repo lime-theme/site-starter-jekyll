@@ -1,0 +1,23 @@
+.DS_Store
+sh.exe.stackdump
+
+*.log
+
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+.env.local
+
+dist/
+
+.cache/
+.asset-cache/
+.sass-cache/
+
+.knosys/sites/*/_data/knosys/
+.knosys/sites/*/_knosys/
+# .knosys/sites/*/_assets/*/ksio/
+# .knosys/sites/*/*/ksio/
+.knosys/sites/*/_site/

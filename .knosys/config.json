@@ -1,0 +1,14 @@
+{
+  "command": "./.knosys/scripts/command",
+  "site": {
+    "default": {
+      "alias": "",
+      "cname": "",
+      "generator": "jekyll",
+      "git": {
+        "url": "",
+        "branch": "gh-pages"
+      }
+    }
+  }
+}
